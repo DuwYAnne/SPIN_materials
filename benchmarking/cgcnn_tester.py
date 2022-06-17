@@ -1,7 +1,7 @@
 import sys
 sys.path.insert(0, 'C:/users/maxwe/SPIN_materials')
-import cgcnn.cgcnn.train as runner
-from cgcnn.cgcnn.cgcnn.data import CIFData_direct
+import cgcnn.train as runner
+from cgcnn.cgcnn.data import CIFData_direct
 from pymatgen.core.structure import Structure
 from matminer.datasets import load_dataset
 import numpy as np
