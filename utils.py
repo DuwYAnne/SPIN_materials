@@ -57,7 +57,7 @@ class GraphConstructor():
                     cell_offsets=cell_offsets,
                     distances=distance,
                     y=target,
-                    sid=torch.Tensor(sid) if sid is not None else None
+                    sid=sid if sid is not None else None
         )
 
 
